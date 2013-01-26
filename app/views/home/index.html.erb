@@ -1,0 +1,25 @@
+<div class="hero-unit">
+  <h1>Pintapedia</h1>
+  <p>Esse rolé aqui foi coisado pra mostra prus boy as giria que os boy fala ai...</p>
+
+  <br /><small>Ai esse homi clica naquele rolé aqui d'baixo pra butar uma giria ai que esse ohm conhece...</small>
+  <button id="opener"class="btn btn-block btn-primary">Cadastrar Giria</button><br />
+  <div id="dialog" title="Giria" >
+    <%= render "words/form", :object => @word %>
+  </div>
+<hr>
+  <div class="row">
+    <div class="span3">
+      Recém Cadastrado <br />
+      <% @girias.each do |word| %>
+        <%= link_to word.name, word, :controller => 'home' %> <br />
+      <% end %>
+    </div>
+    <div class="span4">
+      <blockquote class="pull-right">
+        <h4>Clique aqui mermão pra ver as Girias</h4>
+        <%= link_to "Todas as Girias", words_path, :class=> 'btn' %>
+      </blockquote>
+    </div>
+  </div>
+</div>

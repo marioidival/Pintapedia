@@ -1,0 +1,26 @@
+
+<div class="page-header">
+  <h1>Giria</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong>Giria:</strong></dt>
+  <dd><%= @words.name %></dd>
+  <dt><strong>O Que quer dizer?</strong></dt>
+  <dd><%= @words.description %></dd>
+  <dt><strong>Autor:</strong></dt>
+  <dd><%= @words.autor %></dd>
+</dl>
+<hr />
+<h3>Adicionar Comentario</h3>
+
+<%= render :partial => "comments/form" %>
+
+<h3>Comentarios</h3>
+
+<%= render :partial => "comments/comentarios", :collection => @words.comments %>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.voltar")),
+              root_path, :class => 'btn'  %>
+</div>

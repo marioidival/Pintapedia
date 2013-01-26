@@ -1,0 +1,32 @@
+
+<div class="page-header">
+  <h1>Girias</h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      
+      <th>Giria</th>
+      <th>Autor</th>
+
+      <th><%=t '.actions', :default => t("helpers.Opções") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @words.each do |word| %>
+      <tr>
+        <td><%= word.name %></td>
+        <td><%= word.autor %></td>
+
+        <td>
+          <%= link_to t('.show', :default => t("helpers.links.Mais Informações")),
+                      word_path(word), :class => 'btn btn-mini' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.Nova Giria")),
+            new_word_path,
+            :class => 'btn btn-primary' %>

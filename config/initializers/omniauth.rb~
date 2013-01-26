@@ -1,0 +1,8 @@
+OmniAuth.config.logger = Rails.logger
+OmniAuth.config.on_failure = Proc.new do |env|
+  "UsersController".constantize.action(:omniauth_failure).call(env)
+end
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :facebook, '298959990206488','39c900a70370d688623be6bc17ed56e4', :display => "popup"
+end
+

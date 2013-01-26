@@ -1,0 +1,29 @@
+<%= form_for @word, :html => { :class => 'form-inline' } do |f| %>
+  <br />
+  <div class="control-group">
+    <%= f.label :name,"Giria", :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :description,"Descrição", :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_area :description, :class => 'text_area',:rows => 3 %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :autor, :class => 'control-label' %>
+    <div class="controls">
+      <% if current_user %>
+        <%= f.text_field :autor, :class => 'text_field',:value => current_user.name  %>
+      <% end %>
+    </div>
+  </div>
+
+  <center>
+  <div class="form-actions">
+    <%= f.submit "Cadastrar", :class => 'btn btn-primary' %>
+  </div>
+</center>
+<% end %>
