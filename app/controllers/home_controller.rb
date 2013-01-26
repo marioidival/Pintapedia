@@ -1,8 +1,6 @@
 class HomeController < ApplicationController
   def index
     @word = Word.new
-
-   
     @girias = Word.find(:all, :order => "created_at DESC", :limit => 5)
   end
   
