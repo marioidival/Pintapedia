@@ -24,5 +24,4 @@ $(function(){
   });
 
 
-  $("#login_facebook")
 });
