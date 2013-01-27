@@ -27,6 +27,9 @@
   </tbody>
 </table>
 
+<div class="pagination pagination-centered">
+  <%= will_paginate @words,:previous_label =>"&laquo; Anterior", :next_label "Proximo &raquo;" %>
+</div>
 <%= link_to t('.new', :default => t("helpers.links.Nova Giria")),
             new_word_path,
             :class => 'btn btn-primary' %>
