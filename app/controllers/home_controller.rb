@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  before_filter :require_login_on_face, :only => [:index]
   def index
     @word = Word.new
     @girias = Word.find(:all, :order => "created_at DESC", :limit => 5)
