@@ -3,7 +3,7 @@
   <div class="control-group">
     <%= f.label :name,"Giria", :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :name, :class => 'text_field' %>
+      <%= f.text_field :name, :class => 'text_field',:placeholder => "Digite sua Giria" %>
     </div>
   </div>
   <div class="control-group">
@@ -16,7 +16,9 @@
     <%= f.label :autor, :class => 'control-label' %>
     <div class="controls">
       <% if current_user %>
-        <%= f.text_field :autor, :class => 'text_field',:value => current_user.name  %>
+        <%= f.text_field :autor, :class => 'text_field',:value => current_user.name %>
+      <% else %>
+       <%= link_to "Entre com o usuário do Facebook", "/auth/facebook", id: "sign_in", :class => 'btn btn-primary' %>
       <% end %>
     </div>
   </div>
