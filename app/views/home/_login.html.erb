@@ -1,5 +1,6 @@
 <% if current_user %>
-  <button class="btn btn-primary">Esse ohm entrou como <strong><%= current_user.name %></strong>!</button> 
+
+  <button class="btn btn-primary">Esse home entrou como <strong><%= current_user.name %></strong>!</button> 
   <br /><br />
   <%= link_to "Sair", signout_path, id: "sign_out", :class => 'btn btn-danger' %>
 <% else %>
