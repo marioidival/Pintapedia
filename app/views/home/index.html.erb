@@ -14,6 +14,7 @@
       <% @girias.each do |word| %>
         <%= link_to word.name, word, :controller => 'home' %> <br />
         <small><%= word.autor %></small><br />
+        <hr />
       <% end %>
     </div>
     <div class="span4">
