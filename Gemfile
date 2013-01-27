@@ -9,10 +9,11 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   gem 'less-rails'
   gem 'therubyracer'
-  gem 'will_paginate'
+ 
   gem 'uglifier', '>= 1.0.3'
   gem 'jquery-ui-rails'
 end
 gem 'jquery-rails'
 gem 'omniauth-facebook', '1.4.0'
 gem 'thin'
+gem 'will_paginate', '~> 3.0'
