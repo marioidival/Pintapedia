@@ -22,4 +22,7 @@ $(function(){
   $("#opener").click(function() {
     $("#dialog").dialog("open");
   });
+
+
+  $("#login_facebook")
 });

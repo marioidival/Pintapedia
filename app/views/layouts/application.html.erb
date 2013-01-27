@@ -27,14 +27,8 @@
       <%= yield %>
     </div>
     <div class="span2">
-         <% if current_user %>
-    	    <button class="btn btn-primary">Esse ohm entrou como <strong><%= current_user.name %></strong>!</button> 
-          <br /><br />
-    	    <%= link_to "Sair", signout_path, id: "sign_out", :class => 'btn btn-danger' %>
-        <% else %>
-          <%= link_to "Entre com o usuário do Facebook", "/auth/facebook", id: "sign_in", :class => 'btn btn-primary' %>
-        <% end %>
-        <h3>Entrem com o Facebook, para ficar mais divertido :)</h3>
+      <h4>Entrem com o Facebook, para ficar mais divertido :)</h4>
+      <%= render :partial => "home/login" %>
      </div>
   </div>
 </div>
