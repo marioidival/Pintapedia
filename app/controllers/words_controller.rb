@@ -2,7 +2,7 @@ class WordsController < ApplicationController
   # GET /words
   # GET /words.json
   def index
-    @words = Word.all.paginate(:page => params[:page], :per_page => 10)
+    @words = Word.all
 
     respond_to do |format|
       format.html # index.html.erb
