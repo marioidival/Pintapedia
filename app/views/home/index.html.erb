@@ -13,7 +13,7 @@
       Recém Cadastrado <br />
       <% @girias.each do |word| %>
         <%= link_to word.name, word, :controller => 'home' %> <br />
-        <small><%= word.autor %></small>
+        <small><%= word.autor %></small><br />
       <% end %>
     </div>
     <div class="span4">
