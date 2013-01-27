@@ -1,12 +1,14 @@
 ---
 logo.png: logo-9b3827cc5912b8fdb18fd2e25a2ef0c3.png
 logo/index.png: logo-9b3827cc5912b8fdb18fd2e25a2ef0c3.png
+pinta.jpg: pinta-3905e0ffa3f7ea2790c6e36a8023bdd9.jpg
+pinta/index.jpg: pinta-3905e0ffa3f7ea2790c6e36a8023bdd9.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-10d2a44eb23e099d77efbffd72bacb3c.js
-application/index.js: application-10d2a44eb23e099d77efbffd72bacb3c.js
-application.css: application-5fabb61755c540db9ec4af930ef6667d.css
-application/index.css: application-5fabb61755c540db9ec4af930ef6667d.css
+application.js: application-f15489ffccb77a94f56c9f8217bf6fa1.js
+application/index.js: application-f15489ffccb77a94f56c9f8217bf6fa1.js
+application.css: application-a6287636dadd305993053a4332697856.css
+application/index.css: application-a6287636dadd305993053a4332697856.css
 jquery.min.map: jquery.min-959a5819c76e1508f5a8655c289c0de8.map
 jquery/index.min.map: jquery.min-959a5819c76e1508f5a8655c289c0de8.map
 jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png: jquery-ui/ui-bg_flat_0_aaaaaa_40x100-7d1197a52442bc56fcad60d0390f4b32.png
@@ -35,15 +37,3 @@ jquery-ui/ui-icons_888888_256x240.png: jquery-ui/ui-icons_888888_256x240-8040cfc
 jquery-ui/ui-icons_888888_256x240/index.png: jquery-ui/ui-icons_888888_256x240-8040cfcc88792375b7788feb59189eef.png
 jquery-ui/ui-icons_cd0a0a_256x240.png: jquery-ui/ui-icons_cd0a0a_256x240-d4a62216bf6f0cd0071149890763a5ff.png
 jquery-ui/ui-icons_cd0a0a_256x240/index.png: jquery-ui/ui-icons_cd0a0a_256x240-d4a62216bf6f0cd0071149890763a5ff.png
-fontawesome-webfont.eot: fontawesome-webfont-d1a87f253d164f9455111cf8108b946d.eot
-fontawesome-webfont/index.eot: fontawesome-webfont-d1a87f253d164f9455111cf8108b946d.eot
-fontawesome-webfont.svg: fontawesome-webfont-c3f3594758768fbb43eae746d18b3b50.svg
-fontawesome-webfont/index.svg: fontawesome-webfont-c3f3594758768fbb43eae746d18b3b50.svg
-fontawesome-webfont.ttf: fontawesome-webfont-f6efbd0570bf4cf4fb12122c18bbb1df.ttf
-fontawesome-webfont/index.ttf: fontawesome-webfont-f6efbd0570bf4cf4fb12122c18bbb1df.ttf
-fontawesome-webfont.woff: fontawesome-webfont-a16deda648110d250b072cfdf2ae0f14.woff
-fontawesome-webfont/index.woff: fontawesome-webfont-a16deda648110d250b072cfdf2ae0f14.woff
-twitter/bootstrap/glyphicons-halflings-white.png: twitter/bootstrap/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
-twitter/bootstrap/glyphicons-halflings-white/index.png: twitter/bootstrap/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
-twitter/bootstrap/glyphicons-halflings.png: twitter/bootstrap/glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
-twitter/bootstrap/glyphicons-halflings/index.png: twitter/bootstrap/glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
